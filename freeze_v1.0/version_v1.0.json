@@ -1,0 +1,25 @@
+{
+  "dataset_version": "1.0",
+  "freeze_date": "2026-10-05",
+  "freeze_decision": "v1.0 正式冻结，可进入 baseline 训练（2026-10-05 用户选择方案 a：B1 文档化后直接冻结）",
+  "audit_verdict": "C CONDITIONAL PASS -> 经用户决策 B1 文档化后转为正式冻结",
+  "total_samples": 4971,
+  "split_counts": {
+    "train": 2700,
+    "val_real": 200,
+    "test_real": 340,
+    "reserve": 1731
+  },
+  "tta_eval_scope": {
+    "note": "TTA/time-to-accident/collision lead time 仅在 collision_frame 有真实标注的事故正样本上计算，不对 CCD 做自动估算并当作真值",
+    "carla_accident_pos_samples": 1080,
+    "dada_samples": 25,
+    "tta_total": 1105,
+    "tta_prediction_eligible_true": 973,
+    "carla_clear_accident_neg_cf20_note": "另有 CARLA clear_accident 负样本 540 条 collision_frame=20（生成真值），属负样本，不计入 TTA 正样本评价",
+    "ccd_real_pos_excluded": 486,
+    "ccd_real_pos_cf_null": 486,
+    "exclusion_note": "486 条 CCD 真实恶劣天气事故正样本（collision_frame=null）不在 TTA 评价范围，仅用于事故检测/分类等不依赖 collision_frame 的实验"
+  },
+  "generated_by": "scripts/make_freeze_v1.0.py"
+}

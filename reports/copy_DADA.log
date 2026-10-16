@@ -1,0 +1,29 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 2026104 10:51:45
+   Source : D:\dataset\dada_frames_v2\
+     Dest : D:\dataset_final_export\dataset_final\frames\DADA\
+
+    Files : *.*
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DA /COPY:DAT /NP /MT:16 /R:2 /W:2 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        26        26         1         0         0         0
+   Files :       625       625         0         0         0         0
+   Bytes :   89.14 m   89.14 m         0         0         0         0
+   Times :   0:00:11   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           138,687,968 Bytes/sec.
+   Speed :             7,935.789 MegaBytes/min.
+   Ended : 2026104 10:51:46
+

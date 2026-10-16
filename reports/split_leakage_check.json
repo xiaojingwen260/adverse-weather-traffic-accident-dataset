@@ -1,0 +1,42 @@
+{
+  "recomputed_from": "dataset_master.json",
+  "recompute_time": "2026-10-04 14:02:38",
+  "method": "按 sample[\"group_id\"] 实际统计（build_master.py 生成规则：CCD/DADA/BDD100K 按原始视频 ID；CARLA 按 Town+场景+天气+序号，每条为独立 episode）。唯一 group_id 等于样本总数 ⇒ 每条样本对应独立 episode；少于样本总数 ⇒ 同组片段必须处于同一 split。",
+  "sample_total": 4971,
+  "non_empty_group_count": 4971,
+  "unique_group_count": 4971,
+  "unique_groups_per_split": {
+    "train": {
+      "samples": 2700,
+      "unique_groups": 2700
+    },
+    "val_real": {
+      "samples": 200,
+      "unique_groups": 200
+    },
+    "test_real": {
+      "samples": 340,
+      "unique_groups": 340
+    },
+    "reserve": {
+      "samples": 1731,
+      "unique_groups": 1731
+    }
+  },
+  "groups_in_multiple_splits": [],
+  "group_overlap": 0,
+  "missing_group_count": 0,
+  "missing_group_samples": [],
+  "duplicate_group_count": 0,
+  "duplicate_group_sample_count": 0,
+  "duplicate_group_detail": [],
+  "original_video_relation": "unique_group_count == sample_total ⇒ 每条样本为独立原始视频/episode；无同一原始视频切出多片段的情况。",
+  "duplicate_sample_id": 0,
+  "duplicate_sample_ids": [],
+  "video_overlap_across_splits": 0,
+  "video_overlap_video_ids": [],
+  "duplicate_frame_sequence": 0,
+  "path_errors": 0,
+  "path_error_samples": [],
+  "conclusion": "PASS"
+}

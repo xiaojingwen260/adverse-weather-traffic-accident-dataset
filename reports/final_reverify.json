@@ -1,0 +1,86 @@
+{
+  "reverify_time": "2026-10-04 14:06:21",
+  "purpose": "冻结前最终复验（2026-10-04 修正指令第四项），全部以实际文件为准，未做任何修改",
+  "items": [
+    {
+      "item": "dataset_master = 4971",
+      "pass": true,
+      "value": 4971,
+      "source": "manifests/dataset_master.json"
+    },
+    {
+      "item": "train + val_real + test_real + reserve = 4971",
+      "pass": true,
+      "value": "2700+200+340+1731 = 4971",
+      "source": "manifests/{train,val_real,test_real,reserve}.json"
+    },
+    {
+      "item": "train 合成 80% / 真实 20%（±0.5%）",
+      "pass": true,
+      "value": "合成 80.000%（2160） / 真实 20.000%（540）",
+      "source": "final_distribution.json（同 manifests/train.json 域统计 2160/540）"
+    },
+    {
+      "item": "train 正样本 1350 / 负样本 1350",
+      "pass": true,
+      "value": "1350 / 1350",
+      "source": "final_distribution.json"
+    },
+    {
+      "item": "两类负样本各 675",
+      "pass": true,
+      "value": "adverse_no_accident=675, clear_accident=675",
+      "source": "final_distribution.json"
+    },
+    {
+      "item": "val_real 100% 真实且含正负样本",
+      "pass": true,
+      "value": "domain=real: 200/200；正 100 / 负 100",
+      "source": "manifests/val_real.json"
+    },
+    {
+      "item": "test_real 100% 真实",
+      "pass": true,
+      "value": "340/340",
+      "source": "manifests/test_real.json"
+    },
+    {
+      "item": "sample_id 重复 = 0",
+      "pass": true,
+      "value": "4971 唯一 / 4971",
+      "source": "split_leakage_check.json（duplicate_sample_id=0）"
+    },
+    {
+      "item": "group 跨 split 重叠 = 0",
+      "pass": true,
+      "value": 0,
+      "source": "split_leakage_check.json（唯一组 4971 = 样本总数 4971，重复组 0，缺失组 0）"
+    },
+    {
+      "item": "路径错误 = 0",
+      "pass": true,
+      "value": 0,
+      "source": "split_leakage_check.json"
+    },
+    {
+      "item": "4971 × 25 = 124275 JPG",
+      "pass": true,
+      "value": "4971 条 / 124275 jpg / 17.52 GB（bad_path=0 缺帧=0 坏解码=0 重复帧序列=0）",
+      "source": "frame_integrity_check.json"
+    },
+    {
+      "item": "加载器全量遍历 4971/4971、0 错误",
+      "pass": true,
+      "value": "iterated=4971/4971 errors=0",
+      "source": "loader_delivery_result.json"
+    },
+    {
+      "item": "标签逻辑错误 = 0",
+      "pass": true,
+      "value": 0,
+      "source": "label_logic_check.json"
+    }
+  ],
+  "all_pass": true,
+  "conclusion": "PASS"
+}

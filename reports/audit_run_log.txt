@@ -1,0 +1,4 @@
+﻿inventory -> D:\dataset_final_export\dataset_final\reports
+six_class: {'syn_adverse_acc': 1080, 'syn_adverse_noacc': 1080, 'syn_clear_acc': 0, 'real_adverse_acc': 511, 'real_adverse_noacc': 746, 'real_clear_acc': 1014, 'syn_clear_noacc': 0, 'real_clear_noacc': 0}
+carla avg jpg bytes: 145862 files: 54000
+dup sample_id: 0

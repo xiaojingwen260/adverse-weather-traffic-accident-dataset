@@ -1,0 +1,11 @@
+{
+ "total": 4971,
+ "errors": [],
+ "error_count": 0,
+ "checked_rules": [
+  "target=1 -> accident=1 and adverse_weather=1",
+  "adverse_no_accident -> accident=0 and adverse_weather=1 and target=0",
+  "clear_accident -> accident=1 and adverse_weather=0 and target=0",
+  "test_real/val_real 100% real"
+ ]
+}

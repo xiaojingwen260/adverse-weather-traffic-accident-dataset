@@ -1,0 +1,29 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 2026104 10:51:02
+   Source : D:\dataset\ccd_frames_v2\
+     Dest : D:\dataset_final_export\dataset_final\frames\CCD\
+
+    Files : *.*
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DA /COPY:DAT /NP /MT:16 /R:2 /W:2 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :      1501      1501         1         0         0         0
+   Files :     37500     37500         0         0         0         0
+   Bytes :   3.964 g   3.964 g         0         0         0         0
+   Times :   0:11:33   0:00:40                       0:00:00   0:00:02
+
+
+   Speed :           106,057,045 Bytes/sec.
+   Speed :             6,068.633 MegaBytes/min.
+   Ended : 2026104 10:51:45
+

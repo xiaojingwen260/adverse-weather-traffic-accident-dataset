@@ -1,0 +1,52 @@
+{
+  "total": 4971,
+  "frames_total": 124275,
+  "split": {
+    "train": 2700,
+    "reserve": 1731,
+    "val_real": 200,
+    "test_real": 340
+  },
+  "target": {
+    "1": 1591,
+    "0": 3380
+  },
+  "domain": {
+    "synthetic": 2700,
+    "real": 2271
+  },
+  "weather": {
+    "rainy": 885,
+    "snowy": 987,
+    "night": 1545,
+    "clear": 1554
+  },
+  "source": {
+    "CARLA": 2700,
+    "CCD": 1500,
+    "DADA": 25,
+    "BDD100K": 746
+  },
+  "accident": {
+    "1": 3145,
+    "0": 1826
+  },
+  "negative_type": {
+    "None": 1591,
+    "adverse_no_accident": 1826,
+    "clear_accident": 1554
+  },
+  "prediction_eligible": {
+    "false": 175,
+    "true": 4796
+  },
+  "train": {
+    "total": 2700,
+    "syn": 2160,
+    "real": 540,
+    "pos": 1350,
+    "neg": 1350,
+    "adverse_noaccident": 675,
+    "clear_accident": 675
+  }
+}

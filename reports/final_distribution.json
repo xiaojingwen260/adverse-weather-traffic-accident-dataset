@@ -1,0 +1,162 @@
+{
+ "total": 4971,
+ "split_x_target": {
+  "train": {
+   "1": 1350,
+   "0": 1350
+  },
+  "reserve": {
+   "0": 1730,
+   "1": 1
+  },
+  "val_real": {
+   "0": 100,
+   "1": 100
+  },
+  "test_real": {
+   "1": 140,
+   "0": 200
+  }
+ },
+ "split_x_domain": {
+  "train": {
+   "synthetic": 2160,
+   "real": 540
+  },
+  "reserve": {
+   "synthetic": 540,
+   "real": 1191
+  },
+  "val_real": {
+   "real": 200
+  },
+  "test_real": {
+   "real": 340
+  }
+ },
+ "split_x_weather": {
+  "train": {
+   "rainy": 583,
+   "snowy": 674,
+   "night": 768,
+   "clear": 675
+  },
+  "reserve": {
+   "rainy": 185,
+   "snowy": 197,
+   "night": 580,
+   "clear": 769
+  },
+  "val_real": {
+   "clear": 50,
+   "snowy": 26,
+   "night": 87,
+   "rainy": 37
+  },
+  "test_real": {
+   "snowy": 90,
+   "clear": 60,
+   "rainy": 80,
+   "night": 110
+  }
+ },
+ "split_x_source": {
+  "train": {
+   "CARLA": 2160,
+   "CCD": 405,
+   "BDD100K": 135
+  },
+  "reserve": {
+   "CARLA": 540,
+   "CCD": 770,
+   "BDD100K": 421
+  },
+  "val_real": {
+   "CCD": 125,
+   "DADA": 25,
+   "BDD100K": 50
+  },
+  "test_real": {
+   "CCD": 200,
+   "BDD100K": 140
+  }
+ },
+ "split_x_negative_type": {
+  "train": {
+   "None": 1350,
+   "adverse_no_accident": 675,
+   "clear_accident": 675
+  },
+  "reserve": {
+   "adverse_no_accident": 961,
+   "clear_accident": 769,
+   "None": 1
+  },
+  "val_real": {
+   "clear_accident": 50,
+   "None": 100,
+   "adverse_no_accident": 50
+  },
+  "test_real": {
+   "None": 140,
+   "clear_accident": 60,
+   "adverse_no_accident": 140
+  }
+ },
+ "split_x_accident_x_adverse": {
+  "train": {
+   "1/1": 1350,
+   "0/1": 675,
+   "1/0": 675
+  },
+  "reserve": {
+   "0/1": 961,
+   "1/0": 769,
+   "1/1": 1
+  },
+  "val_real": {
+   "1/0": 50,
+   "1/1": 100,
+   "0/1": 50
+  },
+  "test_real": {
+   "1/1": 140,
+   "1/0": 60,
+   "0/1": 140
+  }
+ },
+ "domain_x_target": {
+  "synthetic": {
+   "1": 1080,
+   "0": 1620
+  },
+  "real": {
+   "0": 1760,
+   "1": 511
+  }
+ },
+ "domain_x_negative_type": {
+  "synthetic": {
+   "None": 1080,
+   "adverse_no_accident": 1080,
+   "clear_accident": 540
+  },
+  "real": {
+   "clear_accident": 1014,
+   "None": 511,
+   "adverse_no_accident": 746
+  }
+ },
+ "train_ratio": {
+  "syn": 2160,
+  "real": 540,
+  "syn_pct": 80.0,
+  "real_pct": 20.0,
+  "pos": 1350,
+  "neg": 1350,
+  "neg_types": {
+   "adverse_no_accident": 675,
+   "clear_accident": 675
+  }
+ }
+}

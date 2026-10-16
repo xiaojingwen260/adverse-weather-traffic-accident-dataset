@@ -1,0 +1,2378 @@
+{
+  "audit_time": "2026-10-05 14:44:07",
+  "elapsed_sec": 167.327219,
+  "method": "L1 MD5/序列MD5(见 audit_integrity)；L2 5帧dHash按位多数指纹 跨split两两汉明(numpy 分块，pair=7134440)；L3 CARLA 运行段内 5 帧序列精确比较",
+  "total_samples": 4971,
+  "cross_split_pairs_compared": 7134440,
+  "suspicious_le8": 1105,
+  "suspicious_le8_list": [
+    {
+      "a": "carla_rainy_rear_end_020",
+      "b": "crash_day_normal_000657",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town05-None",
+      "weathers": "rainy-clear"
+    },
+    {
+      "a": "carla_rainy_side_impact_053",
+      "b": "crash_day_normal_000657",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town04-None",
+      "weathers": "rainy-clear"
+    },
+    {
+      "a": "carla_rainy_side_impact_068",
+      "b": "crash_day_normal_000657",
+      "hamming": 7,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town05-None",
+      "weathers": "rainy-clear"
+    },
+    {
+      "a": "carla_rainy_side_impact_098",
+      "b": "03935c73-6fad10a2",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "rainy-night"
+    },
+    {
+      "a": "carla_rainy_pedestrian_090",
+      "b": "crash_day_normal_000657",
+      "hamming": 7,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "rainy-clear"
+    },
+    {
+      "a": "carla_rainy_pedestrian_090",
+      "b": "03935c73-6fad10a2",
+      "hamming": 7,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "rainy-night"
+    },
+    {
+      "a": "carla_snowy_rear_end_069",
+      "b": "crash_day_normal_000635",
+      "hamming": 7,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town05-None",
+      "weathers": "snowy-clear"
+    },
+    {
+      "a": "carla_snowy_rear_end_069",
+      "b": "dada_11_051",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-DADA",
+      "towns": "Town05-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_side_impact_115",
+      "b": "crash_night_rainy_000537",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town01-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_pedestrian_040",
+      "b": "crash_night_rainy_000537",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town04-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_pedestrian_050",
+      "b": "crash_night_rainy_000537",
+      "hamming": 7,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town04-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_pedestrian_068",
+      "b": "crash_night_rainy_000537",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town05-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_pedestrian_078",
+      "b": "03935c73-6fad10a2",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town05-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_pedestrian_085",
+      "b": "crash_day_normal_000657",
+      "hamming": 4,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "snowy-clear"
+    },
+    {
+      "a": "carla_snowy_pedestrian_085",
+      "b": "dada_11_051",
+      "hamming": 7,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-DADA",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_pedestrian_085",
+      "b": "03935c73-6fad10a2",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_pedestrian_095",
+      "b": "crash_day_normal_000657",
+      "hamming": 5,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "snowy-clear"
+    },
+    {
+      "a": "carla_snowy_pedestrian_095",
+      "b": "dada_11_051",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-DADA",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_neg_rainy_pedestrian_027",
+      "b": "crash_day_normal_000657",
+      "hamming": 7,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town02-None",
+      "weathers": "rainy-clear"
+    },
+    {
+      "a": "carla_neg_snowy_rear_end_023",
+      "b": "crash_day_normal_000657",
+      "hamming": 7,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town02-None",
+      "weathers": "snowy-clear"
+    },
+    {
+      "a": "carla_neg_snowy_rear_end_023",
+      "b": "dada_11_051",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-DADA",
+      "towns": "Town02-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_neg_snowy_rear_end_025",
+      "b": "crash_day_normal_000657",
+      "hamming": 7,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town02-None",
+      "weathers": "snowy-clear"
+    },
+    {
+      "a": "carla_neg_snowy_rear_end_059",
+      "b": "dada_11_051",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-DADA",
+      "towns": "Town04-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_neg_snowy_side_impact_029",
+      "b": "crash_day_normal_000657",
+      "hamming": 7,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town02-None",
+      "weathers": "snowy-clear"
+    },
+    {
+      "a": "carla_neg_snowy_side_impact_029",
+      "b": "dada_11_051",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-DADA",
+      "towns": "Town02-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_neg_snowy_side_impact_056",
+      "b": "crash_night_normal_000040",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town04-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_neg_snowy_side_impact_069",
+      "b": "03935c73-6fad10a2",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town05-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_neg_snowy_side_impact_073",
+      "b": "crash_day_rainy_000393",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town05-None",
+      "weathers": "snowy-rainy"
+    },
+    {
+      "a": "carla_neg_snowy_side_impact_092",
+      "b": "03935c73-6fad10a2",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_neg_snowy_side_impact_108",
+      "b": "crash_day_normal_000657",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town01-None",
+      "weathers": "snowy-clear"
+    },
+    {
+      "a": "carla_neg_snowy_pedestrian_023",
+      "b": "03935c73-6fad10a2",
+      "hamming": 7,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town02-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_neg_snowy_pedestrian_075",
+      "b": "crash_day_normal_000657",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town05-None",
+      "weathers": "snowy-clear"
+    },
+    {
+      "a": "carla_neg_snowy_pedestrian_075",
+      "b": "03935c73-6fad10a2",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town05-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_neg_snowy_pedestrian_104",
+      "b": "crash_day_snowy_000420",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town01-None",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "crash_day_snowy_000299",
+      "b": "crash_day_normal_000009",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "snowy-clear"
+    },
+    {
+      "a": "crash_day_snowy_000299",
+      "b": "crash_day_snowy_000420",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "crash_day_snowy_000299",
+      "b": "crash_day_snowy_000547",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "crash_day_rainy_000351",
+      "b": "crash_day_normal_000009",
+      "hamming": 7,
+      "pair": "train-val_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "rainy-clear"
+    },
+    {
+      "a": "crash_day_normal_000370",
+      "b": "crash_day_normal_000009",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "clear-clear"
+    },
+    {
+      "a": "crash_day_snowy_000410",
+      "b": "crash_day_normal_000657",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "snowy-clear"
+    },
+    {
+      "a": "crash_night_rainy_000447",
+      "b": "crash_night_rainy_000212",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "night-night"
+    },
+    {
+      "a": "crash_night_rainy_000447",
+      "b": "crash_day_normal_000657",
+      "hamming": 6,
+      "pair": "train-val_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "night-clear"
+    },
+    {
+      "a": "crash_night_normal_000704",
+      "b": "crash_night_normal_000989",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "night-night"
+    },
+    {
+      "a": "crash_day_snowy_001105",
+      "b": "crash_day_snowy_000303",
+      "hamming": 2,
+      "pair": "train-val_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "024b92c0-0a350fc3",
+      "b": "crash_day_normal_000657",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "real-real",
+      "sources": "BDD100K-CCD",
+      "towns": "None-None",
+      "weathers": "night-clear"
+    },
+    {
+      "a": "carla_clear_rear_end_123",
+      "b": "crash_day_normal_001171",
+      "hamming": 7,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town02-None",
+      "weathers": "clear-clear"
+    },
+    {
+      "a": "carla_clear_side_impact_102",
+      "b": "crash_day_normal_000657",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town01-None",
+      "weathers": "clear-clear"
+    },
+    {
+      "a": "carla_clear_pedestrian_059",
+      "b": "crash_day_rainy_000557",
+      "hamming": 7,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town04-None",
+      "weathers": "clear-rainy"
+    },
+    {
+      "a": "carla_clear_pedestrian_059",
+      "b": "crash_day_normal_000657",
+      "hamming": 8,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town04-None",
+      "weathers": "clear-clear"
+    },
+    {
+      "a": "carla_rainy_pedestrian_000",
+      "b": "02f101f6-803bdb72",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town02-None",
+      "weathers": "rainy-night"
+    },
+    {
+      "a": "carla_rainy_pedestrian_090",
+      "b": "02f101f6-803bdb72",
+      "hamming": 6,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "rainy-night"
+    },
+    {
+      "a": "carla_snowy_rear_end_026",
+      "b": "02f101f6-803bdb72",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town02-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_rear_end_036",
+      "b": "02f101f6-803bdb72",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town02-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_side_impact_023",
+      "b": "02f101f6-803bdb72",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town02-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_side_impact_033",
+      "b": "02f101f6-803bdb72",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town02-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_pedestrian_042",
+      "b": "crash_night_snowy_001014",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town04-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_pedestrian_050",
+      "b": "crash_day_snowy_000006",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town04-None",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "carla_snowy_pedestrian_085",
+      "b": "crash_day_rainy_000169",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "snowy-rainy"
+    },
+    {
+      "a": "carla_snowy_pedestrian_085",
+      "b": "crash_night_normal_000637",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_pedestrian_085",
+      "b": "01051f5c-0ec95f5c",
+      "hamming": 6,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_pedestrian_085",
+      "b": "02f101f6-803bdb72",
+      "hamming": 7,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_pedestrian_095",
+      "b": "01051f5c-0ec95f5c",
+      "hamming": 7,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_snowy_pedestrian_095",
+      "b": "02f101f6-803bdb72",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_night_pedestrian_066",
+      "b": "crash_day_rainy_000515",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town05-None",
+      "weathers": "night-rainy"
+    },
+    {
+      "a": "carla_neg_snowy_rear_end_031",
+      "b": "01051f5c-0ec95f5c",
+      "hamming": 6,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town02-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_neg_snowy_side_impact_029",
+      "b": "crash_day_rainy_000169",
+      "hamming": 7,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town02-None",
+      "weathers": "snowy-rainy"
+    },
+    {
+      "a": "carla_neg_snowy_side_impact_062",
+      "b": "crash_day_rainy_001005",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town05-None",
+      "weathers": "snowy-rainy"
+    },
+    {
+      "a": "carla_neg_snowy_side_impact_092",
+      "b": "02f101f6-803bdb72",
+      "hamming": 7,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "carla_neg_snowy_pedestrian_023",
+      "b": "crash_day_snowy_000298",
+      "hamming": 7,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town02-None",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "carla_neg_snowy_pedestrian_108",
+      "b": "crash_day_rainy_000169",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town01-None",
+      "weathers": "snowy-rainy"
+    },
+    {
+      "a": "carla_neg_snowy_pedestrian_108",
+      "b": "crash_day_snowy_000298",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town01-None",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "crash_day_snowy_000021",
+      "b": "crash_day_normal_000144",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "snowy-clear"
+    },
+    {
+      "a": "crash_night_normal_000216",
+      "b": "01051f5c-0ec95f5c",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "CCD-BDD100K",
+      "towns": "None-None",
+      "weathers": "night-night"
+    },
+    {
+      "a": "crash_day_snowy_000299",
+      "b": "crash_night_snowy_000388",
+      "hamming": 7,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "crash_day_snowy_000299",
+      "b": "crash_day_rainy_001005",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "snowy-rainy"
+    },
+    {
+      "a": "crash_day_snowy_000299",
+      "b": "019588c0-f482aa5e",
+      "hamming": 7,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "CCD-BDD100K",
+      "towns": "None-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "crash_day_normal_000370",
+      "b": "crash_night_normal_000532",
+      "hamming": 7,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "clear-night"
+    },
+    {
+      "a": "crash_day_normal_000370",
+      "b": "crash_night_normal_000637",
+      "hamming": 7,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "clear-night"
+    },
+    {
+      "a": "crash_day_normal_000370",
+      "b": "crash_night_snowy_001014",
+      "hamming": 7,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "clear-night"
+    },
+    {
+      "a": "crash_night_rainy_000447",
+      "b": "01051f5c-0ec95f5c",
+      "hamming": 6,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "CCD-BDD100K",
+      "towns": "None-None",
+      "weathers": "night-night"
+    },
+    {
+      "a": "crash_day_normal_000481",
+      "b": "crash_day_rainy_001376",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "clear-rainy"
+    },
+    {
+      "a": "crash_day_normal_000519",
+      "b": "crash_night_normal_000532",
+      "hamming": 7,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "clear-night"
+    },
+    {
+      "a": "crash_day_normal_000519",
+      "b": "crash_night_normal_000637",
+      "hamming": 7,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "clear-night"
+    },
+    {
+      "a": "crash_day_snowy_000550",
+      "b": "crash_night_normal_000637",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "snowy-night"
+    },
+    {
+      "a": "crash_day_normal_000952",
+      "b": "crash_day_rainy_001376",
+      "hamming": 6,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "clear-rainy"
+    },
+    {
+      "a": "024b92c0-0a350fc3",
+      "b": "01051f5c-0ec95f5c",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "BDD100K-BDD100K",
+      "towns": "None-None",
+      "weathers": "night-night"
+    },
+    {
+      "a": "02d478d1-23e4ee82",
+      "b": "crash_day_normal_001272",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "BDD100K-CCD",
+      "towns": "None-None",
+      "weathers": "night-clear"
+    },
+    {
+      "a": "032164cf-8ac0122d",
+      "b": "crash_night_normal_000532",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "BDD100K-CCD",
+      "towns": "None-None",
+      "weathers": "night-night"
+    },
+    {
+      "a": "032164cf-8ac0122d",
+      "b": "019588c0-f482aa5e",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "BDD100K-BDD100K",
+      "towns": "None-None",
+      "weathers": "night-night"
+    },
+    {
+      "a": "b21c68e6-65674a17",
+      "b": "02cc9ceb-4c3f4418",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "BDD100K-BDD100K",
+      "towns": "None-None",
+      "weathers": "night-night"
+    },
+    {
+      "a": "b2505382-2905b23c",
+      "b": "crash_day_normal_001272",
+      "hamming": 7,
+      "pair": "train-test_real",
+      "domains": "real-real",
+      "sources": "BDD100K-CCD",
+      "towns": "None-None",
+      "weathers": "night-clear"
+    },
+    {
+      "a": "carla_clear_rear_end_076",
+      "b": "crash_day_snowy_000006",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town05-None",
+      "weathers": "clear-snowy"
+    },
+    {
+      "a": "carla_clear_rear_end_104",
+      "b": "crash_day_rainy_001005",
+      "hamming": 7,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town01-None",
+      "weathers": "clear-rainy"
+    },
+    {
+      "a": "carla_clear_pedestrian_006",
+      "b": "02f101f6-803bdb72",
+      "hamming": 7,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town01-None",
+      "weathers": "clear-night"
+    },
+    {
+      "a": "carla_clear_pedestrian_059",
+      "b": "crash_day_rainy_000169",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town04-None",
+      "weathers": "clear-rainy"
+    },
+    {
+      "a": "carla_clear_pedestrian_059",
+      "b": "crash_night_normal_000637",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town04-None",
+      "weathers": "clear-night"
+    },
+    {
+      "a": "carla_clear_pedestrian_059",
+      "b": "02f101f6-803bdb72",
+      "hamming": 7,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town04-None",
+      "weathers": "clear-night"
+    },
+    {
+      "a": "carla_clear_pedestrian_110",
+      "b": "02f101f6-803bdb72",
+      "hamming": 8,
+      "pair": "train-test_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town01-None",
+      "weathers": "clear-night"
+    },
+    {
+      "a": "carla_rainy_rear_end_000",
+      "b": "carla_neg_rainy_side_impact_000",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_000",
+      "b": "carla_neg_rainy_side_impact_032",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_000",
+      "b": "carla_neg_rainy_pedestrian_014",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_000",
+      "b": "carla_neg_rainy_pedestrian_032",
+      "hamming": 3,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_000",
+      "b": "carla_neg_rainy_pedestrian_099",
+      "hamming": 3,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town10HD_Opt",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_000",
+      "b": "carla_neg_snowy_rear_end_066",
+      "hamming": 5,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town05",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_rear_end_000",
+      "b": "carla_neg_snowy_pedestrian_091",
+      "hamming": 5,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town10HD_Opt",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_rear_end_003",
+      "b": "crash_day_normal_000362",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town02-None",
+      "weathers": "rainy-clear"
+    },
+    {
+      "a": "carla_rainy_rear_end_010",
+      "b": "carla_neg_rainy_rear_end_029",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_010",
+      "b": "carla_neg_rainy_side_impact_026",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_010",
+      "b": "carla_neg_snowy_rear_end_076",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town05",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_rear_end_020",
+      "b": "carla_neg_rainy_rear_end_029",
+      "hamming": 5,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_020",
+      "b": "carla_neg_rainy_side_impact_026",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_020",
+      "b": "carla_neg_rainy_pedestrian_033",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_020",
+      "b": "carla_neg_snowy_rear_end_032",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_rear_end_020",
+      "b": "carla_neg_snowy_pedestrian_048",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town04",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_000",
+      "b": "carla_neg_rainy_side_impact_016",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_000",
+      "b": "carla_neg_rainy_side_impact_106",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_000",
+      "b": "carla_neg_snowy_rear_end_032",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_000",
+      "b": "carla_neg_snowy_rear_end_079",
+      "hamming": 6,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town05",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_000",
+      "b": "carla_neg_snowy_side_impact_030",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_000",
+      "b": "carla_neg_snowy_pedestrian_026",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_000",
+      "b": "carla_neg_snowy_pedestrian_088",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town10HD_Opt",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_000",
+      "b": "crash_day_normal_000419",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town02-None",
+      "weathers": "rainy-clear"
+    },
+    {
+      "a": "carla_rainy_pedestrian_000",
+      "b": "crash_day_normal_000459",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town02-None",
+      "weathers": "rainy-clear"
+    },
+    {
+      "a": "carla_rainy_pedestrian_000",
+      "b": "crash_day_normal_000826",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town02-None",
+      "weathers": "rainy-clear"
+    },
+    {
+      "a": "carla_rainy_pedestrian_000",
+      "b": "02f11fd9-29728135",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town02-None",
+      "weathers": "rainy-night"
+    },
+    {
+      "a": "carla_rainy_rear_end_047",
+      "b": "carla_neg_rainy_side_impact_000",
+      "hamming": 5,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_047",
+      "b": "carla_neg_rainy_pedestrian_014",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_047",
+      "b": "carla_neg_rainy_pedestrian_032",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_047",
+      "b": "carla_neg_rainy_pedestrian_099",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town10HD_Opt",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_047",
+      "b": "carla_neg_snowy_rear_end_066",
+      "hamming": 6,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town05",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_rear_end_047",
+      "b": "carla_neg_snowy_pedestrian_091",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town10HD_Opt",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_rear_end_075",
+      "b": "carla_neg_rainy_rear_end_106",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_080",
+      "b": "carla_neg_rainy_rear_end_044",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town04",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_083",
+      "b": "carla_neg_rainy_side_impact_016",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_083",
+      "b": "carla_neg_snowy_side_impact_119",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town01",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_rear_end_085",
+      "b": "carla_neg_snowy_side_impact_019",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town01",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_rear_end_097",
+      "b": "carla_neg_snowy_rear_end_033",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_010",
+      "b": "carla_neg_rainy_side_impact_060",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town05",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_010",
+      "b": "carla_neg_snowy_rear_end_045",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town04",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_030",
+      "b": "carla_neg_rainy_side_impact_000",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_030",
+      "b": "carla_neg_rainy_pedestrian_014",
+      "hamming": 6,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_030",
+      "b": "carla_neg_rainy_pedestrian_032",
+      "hamming": 2,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_030",
+      "b": "carla_neg_rainy_pedestrian_099",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town10HD_Opt",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_030",
+      "b": "carla_neg_snowy_rear_end_066",
+      "hamming": 6,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town05",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_030",
+      "b": "carla_neg_snowy_pedestrian_091",
+      "hamming": 6,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town10HD_Opt",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_053",
+      "b": "carla_neg_rainy_rear_end_030",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town04-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_053",
+      "b": "carla_neg_snowy_rear_end_032",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town04-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_053",
+      "b": "carla_neg_snowy_side_impact_057",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town04-Town04",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_053",
+      "b": "carla_neg_snowy_pedestrian_029",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town04-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_066",
+      "b": "carla_neg_snowy_rear_end_027",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_069",
+      "b": "carla_neg_rainy_pedestrian_001",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_069",
+      "b": "carla_neg_snowy_rear_end_042",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town04",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_069",
+      "b": "carla_neg_snowy_side_impact_076",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town05",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_069",
+      "b": "carla_neg_snowy_pedestrian_070",
+      "hamming": 6,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town05",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_070",
+      "b": "carla_neg_rainy_rear_end_066",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town05",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_071",
+      "b": "carla_neg_rainy_side_impact_001",
+      "hamming": 6,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_072",
+      "b": "carla_neg_rainy_side_impact_106",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_074",
+      "b": "carla_neg_rainy_rear_end_065",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town05",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_076",
+      "b": "carla_neg_rainy_rear_end_032",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_076",
+      "b": "carla_neg_snowy_rear_end_027",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_076",
+      "b": "carla_neg_snowy_rear_end_032",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_079",
+      "b": "carla_neg_rainy_side_impact_016",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_079",
+      "b": "carla_neg_snowy_pedestrian_070",
+      "hamming": 5,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town05",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_093",
+      "b": "carla_neg_snowy_rear_end_045",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town10HD_Opt-Town04",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_097",
+      "b": "carla_neg_rainy_rear_end_029",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town10HD_Opt-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_098",
+      "b": "carla_neg_rainy_side_impact_016",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town10HD_Opt-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_098",
+      "b": "carla_neg_rainy_side_impact_106",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town10HD_Opt-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_098",
+      "b": "carla_neg_snowy_rear_end_006",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town10HD_Opt-Town01",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_098",
+      "b": "carla_neg_snowy_pedestrian_088",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town10HD_Opt-Town10HD_Opt",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_098",
+      "b": "crash_day_normal_000459",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "rainy-clear"
+    },
+    {
+      "a": "carla_rainy_side_impact_098",
+      "b": "02f11fd9-29728135",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-real",
+      "sources": "CARLA-BDD100K",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "rainy-night"
+    },
+    {
+      "a": "carla_rainy_side_impact_101",
+      "b": "carla_neg_rainy_side_impact_000",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_101",
+      "b": "carla_neg_rainy_side_impact_032",
+      "hamming": 6,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_101",
+      "b": "carla_neg_rainy_pedestrian_014",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_101",
+      "b": "carla_neg_rainy_pedestrian_032",
+      "hamming": 5,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_101",
+      "b": "carla_neg_snowy_rear_end_066",
+      "hamming": 5,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town05",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_110",
+      "b": "carla_neg_rainy_side_impact_060",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town05",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_110",
+      "b": "carla_neg_rainy_pedestrian_107",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_110",
+      "b": "carla_neg_snowy_rear_end_045",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town04",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_014",
+      "b": "carla_neg_rainy_side_impact_016",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_014",
+      "b": "carla_neg_rainy_pedestrian_033",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_014",
+      "b": "carla_neg_snowy_rear_end_032",
+      "hamming": 6,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_014",
+      "b": "carla_neg_snowy_side_impact_030",
+      "hamming": 6,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_026",
+      "b": "carla_neg_snowy_pedestrian_070",
+      "hamming": 6,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town05",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_029",
+      "b": "carla_neg_snowy_pedestrian_028",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_029",
+      "b": "carla_neg_snowy_pedestrian_030",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_036",
+      "b": "carla_neg_snowy_pedestrian_070",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town05",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_058",
+      "b": "carla_neg_snowy_rear_end_033",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town04-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_060",
+      "b": "carla_neg_snowy_side_impact_116",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town01",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_062",
+      "b": "carla_neg_rainy_side_impact_016",
+      "hamming": 6,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_062",
+      "b": "carla_neg_rainy_pedestrian_033",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_062",
+      "b": "carla_neg_snowy_rear_end_027",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_062",
+      "b": "carla_neg_snowy_rear_end_032",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_062",
+      "b": "carla_neg_snowy_rear_end_079",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town05",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_062",
+      "b": "carla_neg_snowy_side_impact_030",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_067",
+      "b": "carla_neg_snowy_rear_end_032",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_072",
+      "b": "carla_neg_rainy_rear_end_029",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_073",
+      "b": "carla_neg_snowy_rear_end_079",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town05",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_077",
+      "b": "carla_neg_snowy_rear_end_032",
+      "hamming": 7,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_pedestrian_077",
+      "b": "carla_neg_snowy_side_impact_033",
+      "hamming": 8,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-snowy"
+    }
+  ],
+  "strict_le4": 36,
+  "strict_le4_list": [
+    {
+      "a": "carla_snowy_pedestrian_085",
+      "b": "crash_day_normal_000657",
+      "hamming": 4,
+      "pair": "train-val_real",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "snowy-clear"
+    },
+    {
+      "a": "crash_day_snowy_001105",
+      "b": "crash_day_snowy_000303",
+      "hamming": 2,
+      "pair": "train-val_real",
+      "domains": "real-real",
+      "sources": "CCD-CCD",
+      "towns": "None-None",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "carla_rainy_rear_end_000",
+      "b": "carla_neg_rainy_side_impact_000",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_000",
+      "b": "carla_neg_rainy_pedestrian_032",
+      "hamming": 3,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_000",
+      "b": "carla_neg_rainy_pedestrian_099",
+      "hamming": 3,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town10HD_Opt",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_047",
+      "b": "carla_neg_rainy_pedestrian_032",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_047",
+      "b": "carla_neg_rainy_pedestrian_099",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town10HD_Opt",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_rear_end_047",
+      "b": "carla_neg_snowy_pedestrian_091",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town10HD_Opt",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_rainy_side_impact_030",
+      "b": "carla_neg_rainy_pedestrian_032",
+      "hamming": 2,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_rainy_side_impact_101",
+      "b": "carla_neg_rainy_side_impact_000",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_snowy_rear_end_035",
+      "b": "carla_neg_snowy_pedestrian_033",
+      "hamming": 3,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "carla_snowy_rear_end_065",
+      "b": "carla_neg_rainy_pedestrian_032",
+      "hamming": 2,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "snowy-rainy"
+    },
+    {
+      "a": "carla_snowy_rear_end_065",
+      "b": "carla_neg_snowy_rear_end_066",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town05",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "carla_snowy_rear_end_075",
+      "b": "carla_neg_rainy_pedestrian_032",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "snowy-rainy"
+    },
+    {
+      "a": "carla_snowy_rear_end_075",
+      "b": "carla_neg_snowy_rear_end_066",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town05",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "carla_snowy_rear_end_093",
+      "b": "carla_neg_snowy_pedestrian_091",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town10HD_Opt-Town10HD_Opt",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "carla_snowy_side_impact_025",
+      "b": "carla_neg_rainy_pedestrian_032",
+      "hamming": 3,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "snowy-rainy"
+    },
+    {
+      "a": "carla_snowy_side_impact_035",
+      "b": "carla_neg_rainy_pedestrian_032",
+      "hamming": 3,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "snowy-rainy"
+    },
+    {
+      "a": "carla_snowy_pedestrian_085",
+      "b": "carla_neg_snowy_rear_end_032",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town10HD_Opt-Town02",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "carla_snowy_pedestrian_085",
+      "b": "crash_day_normal_000459",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-real",
+      "sources": "CARLA-CCD",
+      "towns": "Town10HD_Opt-None",
+      "weathers": "snowy-clear"
+    },
+    {
+      "a": "carla_neg_rainy_rear_end_035",
+      "b": "carla_neg_rainy_side_impact_030",
+      "hamming": 3,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_neg_rainy_side_impact_018",
+      "b": "carla_neg_snowy_rear_end_066",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town05",
+      "weathers": "rainy-snowy"
+    },
+    {
+      "a": "carla_neg_rainy_pedestrian_026",
+      "b": "carla_neg_rainy_pedestrian_032",
+      "hamming": 3,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_neg_rainy_pedestrian_114",
+      "b": "carla_neg_rainy_side_impact_016",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town01",
+      "weathers": "rainy-rainy"
+    },
+    {
+      "a": "carla_neg_snowy_rear_end_023",
+      "b": "carla_neg_rainy_side_impact_016",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town01",
+      "weathers": "snowy-rainy"
+    },
+    {
+      "a": "carla_neg_snowy_rear_end_023",
+      "b": "carla_neg_rainy_side_impact_026",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "snowy-rainy"
+    },
+    {
+      "a": "carla_neg_snowy_rear_end_023",
+      "b": "carla_neg_snowy_rear_end_032",
+      "hamming": 3,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "carla_neg_snowy_rear_end_025",
+      "b": "carla_neg_snowy_rear_end_032",
+      "hamming": 3,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "carla_neg_snowy_side_impact_029",
+      "b": "carla_neg_rainy_side_impact_016",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town01",
+      "weathers": "snowy-rainy"
+    },
+    {
+      "a": "carla_neg_snowy_side_impact_029",
+      "b": "carla_neg_snowy_rear_end_032",
+      "hamming": 3,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "carla_neg_snowy_side_impact_037",
+      "b": "carla_neg_snowy_pedestrian_070",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town05",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "carla_neg_snowy_side_impact_069",
+      "b": "carla_neg_snowy_rear_end_032",
+      "hamming": 4,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town05-Town02",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "carla_neg_snowy_pedestrian_025",
+      "b": "carla_neg_snowy_side_impact_030",
+      "hamming": 2,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town02-Town02",
+      "weathers": "snowy-snowy"
+    },
+    {
+      "a": "carla_clear_side_impact_002",
+      "b": "carla_neg_rainy_pedestrian_032",
+      "hamming": 3,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town02",
+      "weathers": "clear-rainy"
+    },
+    {
+      "a": "carla_clear_side_impact_002",
+      "b": "carla_neg_snowy_pedestrian_091",
+      "hamming": 3,
+      "pair": "train-reserve",
+      "domains": "synthetic-synthetic",
+      "sources": "CARLA-CARLA",
+      "towns": "Town01-Town10HD_Opt",
+      "weathers": "clear-snowy"
+    },
+    {
+      "a": "018aca44-9a616a49",
+      "b": "crash_day_normal_000200",
+      "hamming": 4,
+      "pair": "test_real-reserve",
+      "domains": "real-real",
+      "sources": "BDD100K-CCD",
+      "towns": "None-None",
+      "weathers": "night-clear"
+    }
+  ],
+  "segment_near_pairs": 0,
+  "segment_near_list": [],
+  "segment_count": 49,
+  "same_source_cross_split": "见 audit_labels（group/original_video_id 跨 split 交集均 0）",
+  "conclusion": "NEAR_DUP_FOUND"
+}

@@ -1,0 +1,74 @@
+{
+  "format": "ZIP_STORED; extract all parts into the repository root",
+  "source": "dataset_final/frames",
+  "assets": [
+    {
+      "name": "frames-part-01.zip",
+      "bytes": 1700396441,
+      "sha256": "b580d5f7616138c1fdeacbf3f599c5efc31fb12b449815dc0e630be9449cd262",
+      "frames": 12250
+    },
+    {
+      "name": "frames-part-02.zip",
+      "bytes": 1697056758,
+      "sha256": "dd6cbe6ca8b6014f131df10b096698b328b4dd692b0da8b3cada51868345bd9f",
+      "frames": 10450
+    },
+    {
+      "name": "frames-part-03.zip",
+      "bytes": 1698976876,
+      "sha256": "d54052ed3eff3ca7116c21cc9a7d2ce37650319f56cf6bca785f1acb9bdd9cab",
+      "frames": 8350
+    },
+    {
+      "name": "frames-part-04.zip",
+      "bytes": 1701741385,
+      "sha256": "ff8ef8e9267a280a9522a6f8023120b08cbe6542e29d737c83773e500c29da9a",
+      "frames": 11850
+    },
+    {
+      "name": "frames-part-05.zip",
+      "bytes": 1700374451,
+      "sha256": "7e3b4afe09c39dc67c5dfbf4449e409576682db1a1fde14ef6618e0e47e2a376",
+      "frames": 11100
+    },
+    {
+      "name": "frames-part-06.zip",
+      "bytes": 1702426947,
+      "sha256": "9934dd4fd89790be73d16d7f4fcccd8dff8f99fffd45f4747cfe4d46964b7bc0",
+      "frames": 12075
+    },
+    {
+      "name": "frames-part-07.zip",
+      "bytes": 1701682029,
+      "sha256": "e470a7ee209075564f1d82e702a7ccb69d7f9f95d4c229c8e7c5f0011c43dc3a",
+      "frames": 11100
+    },
+    {
+      "name": "frames-part-08.zip",
+      "bytes": 1702439947,
+      "sha256": "b82a092eeb91b99a41da539a1caee45e1de37fe1f63f210f5e4adecd7c361c7a",
+      "frames": 12600
+    },
+    {
+      "name": "frames-part-09.zip",
+      "bytes": 1701572900,
+      "sha256": "829e24e1aed21235517c13fba26c09cb3497d9703b8d069e25a3ae2e0f98034a",
+      "frames": 13875
+    },
+    {
+      "name": "frames-part-10.zip",
+      "bytes": 1699845431,
+      "sha256": "021a60d15b5c181837d0696a7b5388a455a2296586c887d87bd7ac2e363d8175",
+      "frames": 15125
+    },
+    {
+      "name": "frames-part-11.zip",
+      "bytes": 537172239,
+      "sha256": "8c0706d5206556c371ccef821a9a46c542a4d54a9ce209e3ac4f6992c4765e77",
+      "frames": 5500
+    }
+  ],
+  "total_frames": 124275,
+  "total_archive_bytes": 17543685404
+}

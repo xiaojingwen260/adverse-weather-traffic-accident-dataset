@@ -1,0 +1,308 @@
+[
+  {
+    "sheet": "sheet_000.png",
+    "row": 10,
+    "sample_id": "crash_day_snowy_000038",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "label=snowy but frames show leafy/autumn trees and road with no visible snow"
+  },
+  {
+    "sheet": "sheet_003.png",
+    "row": 0,
+    "sample_id": "crash_day_normal_000495",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "label=clear but frames show snow-covered/white road"
+  },
+  {
+    "sheet": "sheet_003.png",
+    "row": 3,
+    "sample_id": "crash_day_normal_000501",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "label=clear but frames show snow-covered/white road"
+  },
+  {
+    "sheet": "sheet_005.png",
+    "row": 9,
+    "sample_id": "crash_day_rainy_001005",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "label=rainy but frames show snow-covered white open ground"
+  },
+  {
+    "sheet": "sheet_005.png",
+    "row": 12,
+    "sample_id": "crash_day_normal_001016",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "label=clear but frames show snow-covered white open road"
+  },
+  {
+    "sheet": "sheet_006.png",
+    "row": 0,
+    "sample_id": "crash_day_normal_001120",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "label=clear but frames show snow-covered white road"
+  },
+  {
+    "sheet": "sheet_008.png",
+    "row": 3,
+    "sample_id": "00091078-1a132eea",
+    "weather_visual": "no",
+    "accident_visible": "no",
+    "early_visible": "na",
+    "mismatch": "label=snowy but frames show dusk city street with no visible snow"
+  },
+  {
+    "sheet": "sheet_008.png",
+    "row": 12,
+    "sample_id": "0075b179-8e09869a",
+    "weather_visual": "no",
+    "accident_visible": "no",
+    "early_visible": "na",
+    "mismatch": "label=snowy but frames show clear/sunny daytime city, no snow"
+  },
+  {
+    "sheet": "sheet_008.png",
+    "row": 13,
+    "sample_id": "007eddc-bcae35b",
+    "weather_visual": "no",
+    "accident_visible": "no",
+    "early_visible": "na",
+    "mismatch": "label=snowy but frames show clear daytime city street, no snow"
+  },
+  {
+    "sheet": "sheet_008.png",
+    "row": 21,
+    "sample_id": "00dc5030-237e7f71",
+    "weather_visual": "no",
+    "accident_visible": "no",
+    "early_visible": "na",
+    "mismatch": "label=snowy but frames show clear daytime highway, no snow"
+  },
+  {
+    "sheet": "sheet_009.png",
+    "row": 1,
+    "sample_id": "00142f6b-699a48c",
+    "weather_visual": "no",
+    "accident_visible": "no",
+    "early_visible": "na",
+    "mismatch": "label=snowy but frames show clear daytime city street, no snow"
+  },
+  {
+    "sheet": "sheet_009.png",
+    "row": 3,
+    "sample_id": "0104eb19-162b6ea",
+    "weather_visual": "no",
+    "accident_visible": "no",
+    "early_visible": "na",
+    "mismatch": "label=snowy but frames show dusk city plaza, no visible snow"
+  },
+  {
+    "sheet": "sheet_009.png",
+    "row": 19,
+    "sample_id": "019c8305-bb153d0",
+    "weather_visual": "no",
+    "accident_visible": "no",
+    "early_visible": "na",
+    "mismatch": "label=snowy but frames show clear daytime city street, no snow"
+  },
+  {
+    "sheet": "sheet_009.png",
+    "row": 24,
+    "sample_id": "01b0505f-bf5e4e84",
+    "weather_visual": "no",
+    "accident_visible": "no",
+    "early_visible": "na",
+    "mismatch": "label=snowy but frames show clear daytime city street, no snow"
+  },
+  {
+    "sheet": "sheet_013.png",
+    "row": 6,
+    "sample_id": "b2036451-a92d4d1",
+    "weather_visual": "no",
+    "accident_visible": "no",
+    "early_visible": "na",
+    "mismatch": "label=rainy but frames show snow-covered white road"
+  },
+  {
+    "sheet": "sheet_021.png",
+    "row": 11,
+    "sample_id": "crash_night_snowy_000052",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "标签为night但画面明亮，疑似白天/黄昏，非夜间"
+  },
+  {
+    "sheet": "sheet_021.png",
+    "row": 13,
+    "sample_id": "crash_day_snowy_000054",
+    "weather_visual": "yes",
+    "accident_visible": "yes",
+    "early_visible": "na",
+    "mismatch": "画面可见深色车辆倾覆/侧翻于积雪路面"
+  },
+  {
+    "sheet": "sheet_021.png",
+    "row": 23,
+    "sample_id": "crash_day_snowy_000074",
+    "weather_visual": "no",
+    "accident_visible": "yes",
+    "early_visible": "na",
+    "mismatch": "标签为snowy但画面为晴朗白天蓝天、路面干燥无雪；画面可见倾覆/侧翻车辆"
+  },
+  {
+    "sheet": "sheet_025.png",
+    "row": 5,
+    "sample_id": "crash_night_normal_000384",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "标签为night但画面明亮，疑似白天/黄昏，非夜间"
+  },
+  {
+    "sheet": "sheet_028.png",
+    "row": 23,
+    "sample_id": "crash_day_rainy_000828",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "标签为rainy但画面为干燥晴朗白天、路面无雨湿迹象"
+  },
+  {
+    "sheet": "sheet_029.png",
+    "row": 7,
+    "sample_id": "crash_night_normal_000918",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "标签为night但画面为明亮白天路口，非夜间"
+  },
+  {
+    "sheet": "sheet_029.png",
+    "row": 24,
+    "sample_id": "crash_day_snowy_001030",
+    "weather_visual": "unclear",
+    "accident_visible": "yes",
+    "early_visible": "na",
+    "mismatch": "画面可见白色货车侧翻/倾覆于路面"
+  },
+  {
+    "sheet": "sheet_032.png",
+    "row": 6,
+    "sample_id": "crash_night_normal_001288",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "标签为night但画面为明亮黄昏/白天蓝天，非夜间"
+  },
+  {
+    "sheet": "sheet_032.png",
+    "row": 9,
+    "sample_id": "crash_night_normal_001312",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "标签为night但画面为明亮白天，非夜间"
+  },
+  {
+    "sheet": "sheet_032.png",
+    "row": 18,
+    "sample_id": "crash_day_snowy_001367",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "标签为snowy但画面为晴朗蓝天白天、无积雪"
+  },
+  {
+    "sheet": "sheet_033.png",
+    "row": 3,
+    "sample_id": "crash_day_snowy_001415",
+    "weather_visual": "yes",
+    "accident_visible": "yes",
+    "early_visible": "na",
+    "mismatch": "画面第3帧可见路面上空有抛起的人体/物体，疑似撞人"
+  },
+  {
+    "sheet": "sheet_034.png",
+    "row": 12,
+    "sample_id": "dada_38_037",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "标签为night但画面为明亮白天建筑，非夜间"
+  },
+  {
+    "sheet": "sheet_034.png",
+    "row": 18,
+    "sample_id": "dada_51_001",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "标签为night但画面为白天枯树街道，非夜间"
+  },
+  {
+    "sheet": "sheet_034.png",
+    "row": 22,
+    "sample_id": "dada_39_019",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "标签为rainy但画面为干燥晴朗白天，无雨"
+  },
+  {
+    "sheet": "sheet_034.png",
+    "row": 24,
+    "sample_id": "dada_6_017",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "标签为rainy但画面为晴朗白天街道，无雨湿迹象"
+  },
+  {
+    "sheet": "sheet_035.png",
+    "row": 1,
+    "sample_id": "dada_14_004",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "标签为rainy但画面为晴朗白天、青山干路，无雨"
+  },
+  {
+    "sheet": "sheet_035.png",
+    "row": 2,
+    "sample_id": "dada_39_023",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "标签为rainy但画面为干燥晴朗白天，无雨"
+  },
+  {
+    "sheet": "sheet_035.png",
+    "row": 3,
+    "sample_id": "dada_13_001",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "标签为rainy但画面为白天收费站、无雨湿迹象"
+  },
+  {
+    "sheet": "sheet_035.png",
+    "row": 6,
+    "sample_id": "dada_39_013",
+    "weather_visual": "no",
+    "accident_visible": "unclear",
+    "early_visible": "na",
+    "mismatch": "标签为night但画面为白天街道/卡车，非夜间"
+  }
+]

@@ -1,0 +1,4 @@
+sample_type,count,weather,source,unique_video_ids,unique_group_ids,prediction_eligible_true,quality_flag
+pos,1,"{"night": 1}","{"CCD": 1}",1,1,1,"{"": 1}"
+negA,421,"{"night": 398, "snowy": 17, "rainy": 6}","{"BDD100K": 421}",421,421,421,"{"": 421}"
+negB,769,"{"clear": 769}","{"CCD": 769}",769,769,769,"{"": 769}"

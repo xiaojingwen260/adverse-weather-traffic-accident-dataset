@@ -1,0 +1,39 @@
+{
+  "audit_time": "2026-10-05 14:56:11",
+  "elapsed_sec": 206.925197,
+  "duplicate_md5_groups": 2,
+  "details": {
+    "9d6748ba9479ab2990931e3a7eafad32": [
+      {
+        "sample_id": "carla_night_side_impact_023",
+        "split": "train",
+        "frame_dir": "frames\\CARLA_ACCIDENT\\carla_night_side_impact_023",
+        "frame": "000025.jpg",
+        "abs": "D:\\dataset_final_export\\dataset_final\\frames\\CARLA_ACCIDENT\\carla_night_side_impact_023\\000025.jpg"
+      },
+      {
+        "sample_id": "carla_night_side_impact_033",
+        "split": "train",
+        "frame_dir": "frames\\CARLA_ACCIDENT\\carla_night_side_impact_033",
+        "frame": "000025.jpg",
+        "abs": "D:\\dataset_final_export\\dataset_final\\frames\\CARLA_ACCIDENT\\carla_night_side_impact_033\\000025.jpg"
+      }
+    ],
+    "44c96595936ee44ebc07f62090d8ae66": [
+      {
+        "sample_id": "crash_night_normal_000989",
+        "split": "val_real",
+        "frame_dir": "frames\\CCD\\crash_night_normal_000989",
+        "frame": "000022.jpg",
+        "abs": "D:\\dataset_final_export\\dataset_final\\frames\\CCD\\crash_night_normal_000989\\000022.jpg"
+      },
+      {
+        "sample_id": "crash_night_normal_000989",
+        "split": "val_real",
+        "frame_dir": "frames\\CCD\\crash_night_normal_000989",
+        "frame": "000023.jpg",
+        "abs": "D:\\dataset_final_export\\dataset_final\\frames\\CCD\\crash_night_normal_000989\\000023.jpg"
+      }
+    ]
+  }
+}

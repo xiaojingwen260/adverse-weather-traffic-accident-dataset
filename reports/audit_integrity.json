@@ -1,0 +1,34 @@
+{
+  "audit_time": "2026-10-05 14:50:08",
+  "elapsed_sec": 958.896025,
+  "total_samples": 4971,
+  "total_jpg_scanned": 124275,
+  "valid_samples": 4971,
+  "missing_dir_samples": [],
+  "missing_dir_count": 0,
+  "empty_file_count": 0,
+  "undecodable_count": 0,
+  "undecodable_files": [],
+  "wrong_jpg_count_samples": [],
+  "orphan_dir_count": 0,
+  "orphan_dirs": [],
+  "duplicate_sample_id": 0,
+  "duplicate_sample_ids": [],
+  "duplicate_frame_dir": 0,
+  "duplicate_frame_dir_values": [],
+  "duplicate_frame_md5_groups": 2,
+  "duplicate_frame_instance_excess": 2,
+  "duplicate_frame_groups": [
+    {
+      "md5": "9d6748ba9479ab2990931e3a7eafad32",
+      "count": 2
+    },
+    {
+      "md5": "44c96595936ee44ebc07f62090d8ae66",
+      "count": 2
+    }
+  ],
+  "duplicate_sample_sequence_groups": 0,
+  "duplicate_sample_sequences": {},
+  "conclusion": "PASS"
+}

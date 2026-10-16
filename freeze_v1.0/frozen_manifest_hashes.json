@@ -1,0 +1,25 @@
+{
+  "note": "冻结快照/哈希指针；原文件未改写，以现有 v1.0 清单为准",
+  "files": {
+    "dataset_master.json": {
+      "count": 4971,
+      "sha256": "2771d85796a0d14bde4b25b69f04f191e86d34ff348b988867cf9d8c88d9e166"
+    },
+    "train.json": {
+      "count": 2700,
+      "sha256": "6046fb177ad7abe98bdb09355c8ad6701b63c597f1b2ccf281b00971d11c9c59"
+    },
+    "val_real.json": {
+      "count": 200,
+      "sha256": "6050dff6ad7455f80570cb32cc80fe42508fc61f4ef4b3d17bd1a1121dd658e7"
+    },
+    "test_real.json": {
+      "count": 340,
+      "sha256": "3ce71debc35fa367826d64d0486338ecb2ba66c6258b2e91741848ed9e1b8692"
+    },
+    "reserve.json": {
+      "count": 1731,
+      "sha256": "398ce3ed8eed6c540b1d1ecc0a8dc8a306ef43eb906292932e34c8701798bdc0"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "note": "既有审计产物归档引用（哈希供核对，未移动原文件）",
+  "references": [
+    {
+      "file": "reports/audit_cross.json",
+      "sha256": "e32dfebc689e85092c7f7fad9c919049af10eef3c504e16ffb36cef1b8a6ac53"
+    },
+    {
+      "file": "reports/audit_cross.md",
+      "sha256": "06387bcb4070c3545b137a16bcf5e23b70f3f41b63444271ef71e538624f9daf"
+    },
+    {
+      "file": "reports/audit_integrity.json",
+      "sha256": "e91e7283d2726a57350a24c6d9c8b8ccf1851f613e7fc05ddf422d80fb57d902"
+    },
+    {
+      "file": "reports/audit_integrity.md",
+      "sha256": "58ebcbb22c40e49084a225258c2fe7f493b83cb7120f004c4216af799589a222"
+    },
+    {
+      "file": "reports/audit_integrity_dup_locate.json",
+      "sha256": "fd5f1dc1f8525e64f5d41d5bd7977e57d6960340ab44040936b1e7d22e668cb6"
+    },
+    {
+      "file": "reports/audit_labels.json",
+      "sha256": "0b0363fccc3523f2f93e452e074fb08d71897f02696a87928ef5c11001c9928a"
+    },
+    {
+      "file": "reports/audit_labels.md",
+      "sha256": "581542c19f0ea8108f5f91b332570ea7c3ae3c59f2d62a4feb2e51aad4f1d218"
+    },
+    {
+      "file": "reports/audit_near_dup.json",
+      "sha256": "4b75444691d284d4b8f3113301ebc9764ed46ad24cc060d8d25ddfd7afe0419e"
+    },
+    {
+      "file": "reports/audit_near_dup.md",
+      "sha256": "ceaa0495441a67eecb3a7dc8129a5c819c7666f7ed09fa46b5db348eaf5001af"
+    },
+    {
+      "file": "reports/audit_near_dup_verify.json",
+      "sha256": "fb958078b39bced19552719e2e27cd909423ff67ea0d376373abad3ac1e2e929"
+    },
+    {
+      "file": "reports/audit_run_log.txt",
+      "sha256": "9e8f9b80f9ace8228e97f69194b5f9b8056a3eef4d1edc5782304bbc4b2778c4"
+    },
+    {
+      "file": "reports/audit_trace.json",
+      "sha256": "a15bdcde16c7f9bce5da97ec404ae06c536e598140cd36d6dda77c0f3ddf2813"
+    },
+    {
+      "file": "reports/audit_trace.md",
+      "sha256": "d6fec7a18bcfc483537a1f92b80a314f7360421c95b739a0642f63c64faf26f0"
+    },
+    {
+      "file": "reports/final_acceptance_aggregate.json",
+      "sha256": "473545e1b55486aff4d5ba86dbc505036fa7904f6c5848a5ec9fa2f1292159c4"
+    },
+    {
+      "file": "reports/final_acceptance_audit.md",
+      "sha256": "64994d341ed28045f897b104f54a843a3347e2f599e699217a18fd4eea6df218"
+    },
+    {
+      "file": "reports/final_acceptance_spot_summary.json",
+      "sha256": "23dd405bb6411daecd2ec244d54025ed05ed85c8c02792d14e77962023c75053"
+    },
+    {
+      "file": "reports/final_acceptance_summary.json",
+      "sha256": "a71589ab07a46506c4df81996d74797c142f9d0ce5ea608a1f180b9fdc16a5ae"
+    },
+    {
+      "file": "reports/spot_check/sheets/（36 张目检图）",
+      "sha256": "-"
+    }
+  ]
+}
