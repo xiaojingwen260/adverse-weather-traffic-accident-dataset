@@ -1,2 +1,0 @@
-﻿gap report -> D:\dataset_final_export\dataset_final\reports\synthetic_clear_accident_gap.md
-cur=0 target=540 frames_new=13500 jpg_gb=1.97 mp4_gb=0.56 total_gb=2.53 fallback=75.0%

@@ -2,8 +2,8 @@
 """dataset_loader.py — dataset_final 统一数据加载器
 
 用法（以交付包根目录为基准，路径可整体移动）：
-    from dataset_loader import DatasetFinal
-    ds = DatasetFinal(root=r'D:\\dataset_final_export\\dataset_final')
+    from loaders.dataset_loader import DatasetFinal
+    ds = DatasetFinal(root='.')
     for split in ('train', 'val_real', 'test_real', 'reserve'):
         for frames, rec in ds.iter_split(split):
             # frames: list[np.ndarray] 长度 25，通道 BGR

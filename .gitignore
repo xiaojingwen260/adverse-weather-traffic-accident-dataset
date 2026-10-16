@@ -1,7 +1,0 @@
-frames/
-release_assets/
-*.zip
-__pycache__/
-*.pyc
-.DS_Store
-Thumbs.db
